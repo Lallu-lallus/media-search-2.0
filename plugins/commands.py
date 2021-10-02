@@ -15,7 +15,7 @@ async def start(bot, message):
         await message.reply(INVITE_MSG)
     else:
         buttons = [[
-            InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗢𝗜𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url=https://t.me/cinemaheavensupport),
+            InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', 'url=https://t.me/cinemaheavensupport'),
             InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', 'url=https://t.me/cinemaheavens'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
